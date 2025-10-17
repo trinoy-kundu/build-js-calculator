@@ -13,8 +13,8 @@
 
 .calculator {
     background-color:#3a4452;
-    height: 60vh;
-    width: 40vh;
+    min-height: 60vh;
+    min-width: 18vw;
     padding: 2rem;
     border-radius: 0.50rem;
 }
@@ -52,4 +52,7 @@ form .display input {
     box-shadow: none;
     font-size: 1.7rem;
     text-align: right;
+    padding: 0.25rem 1rem;
+    background-color: #e3f9ff;
+    color: #3a4452;
 }
